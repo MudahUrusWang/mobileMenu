@@ -1,0 +1,94 @@
+@media screen and (max-width : 760px){
+.mobile-menu ul {
+        list-style-type:none;
+	margin:0;
+	padding:0;
+	position: absolute;
+}
+.mobile-menu li {
+	display:block;
+        width: 100%;
+        float: left;
+}
+.mobile-menu li a {
+	display:block;
+        width: 100%;
+	text-align: left;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #717299;
+	text-decoration: none;
+        border-bottom:1px solid #dedede;
+        padding: 10px 10px;
+}
+.mobile-menu li:hover ul a{
+	display:block;
+        float: left;
+        background: #f3f3f3;
+	color: #717299;
+        width: 100%; 
+        text-align: left;
+        height: 40px;
+        line-height: 40px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-decoration: none;
+        border-bottom:1px solid #dedede;
+}
+.mobile-menu li:hover ul a:hover {
+background: #9BD9DF;
+        color: #fff;
+}
+.mobile-menu li:hover a {
+	background: #9BD9DF;
+        color: #fff;
+}
+.mobile-menu li ul {
+	display: none;
+}
+.mobile-menu li ul li {
+	display: block;
+	float: none;
+}
+.mobile-menu li ul li a {
+	width: auto;
+	min-width: 100px;
+	padding: 0 20px;
+}
+.mobile-menu ul li a:hover ~ .hidden, .hidden:hover {
+	display: block;
+}
+.show-menu {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-decoration: none;
+	color: #717299;
+	text-align: left;
+	padding: 10px 10px;
+	display: block;
+}
+ul {
+		position: static;
+		display: none;
+	}
+	/*Create vertical spacing*/
+	li {
+		margin-bottom: 1px;
+	}
+	/*Make all menu links full width*/
+	ul li, li a, {
+		width: 100%;
+     }
+
+/*Hide checkbox*/
+input[type=checkbox]{
+    display: none;
+}
+/*Show menu when invisible checkbox is checked*/
+input[type=checkbox]:checked ~ .mobile-menu #mobilemenu {
+    display: block;
+}
+.mobile-menu-container {
+        background-color:#fff;
+        clear:both;
+        text-align:center;
+        text-transform:uppercase;
+        padding:5px;	 	 
+        }}
