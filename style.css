@@ -34,7 +34,7 @@
         border-bottom:1px solid #dedede;
 }
 .mobile-menu li:hover ul a:hover {
-background: #9BD9DF;
+        background: #9BD9DF;
         color: #fff;
 }
 .mobile-menu li:hover a {
@@ -65,16 +65,16 @@ background: #9BD9DF;
 	display: block;
 }
 ul {
-		position: static;
-		display: none;
+	position: static;
+	display: none;
 	}
 	/*Create vertical spacing*/
 	li {
-		margin-bottom: 1px;
+	margin-bottom: 1px;
 	}
 	/*Make all menu links full width*/
 	ul li, li a, {
-		width: 100%;
+	width: 100%;
      }
 
 /*Hide checkbox*/
