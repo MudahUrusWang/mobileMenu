@@ -86,6 +86,7 @@ input[type=checkbox]:checked ~ .mobile-menu #mobilemenu {
     display: block;
 }
 .mobile-menu-container {
+        display: block;
         background-color:#fff;
         clear:both;
         text-align:center;
