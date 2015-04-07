@@ -1,4 +1,4 @@
-@media screen and (max-width : 760px){
+@media screen and (max-width : 768px){
 .mobile-menu ul {
         list-style-type:none;
 	margin:0;
@@ -90,5 +90,7 @@ input[type=checkbox]:checked ~ .mobile-menu #mobilemenu {
         clear:both;
         text-align:center;
         text-transform:uppercase;
-        padding:5px;	 	 
-        }}
+        padding:5px;
+        width: 100%;
+        float: left;	 	 
+}}
