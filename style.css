@@ -20,7 +20,7 @@
 	text-decoration: none;
         border-bottom:1px solid #dedede;
         padding: 10px 10px;
-        width: 50%;
+        width: 400px;
 }
 .mobile-menu li:hover ul a{
 	display:block;
