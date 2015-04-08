@@ -33,7 +33,7 @@
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	text-decoration: none;
         border-bottom:1px solid #dedede;
-        width: 57%;
+        width: 56%;
 }
 .mobile-menu li:hover ul a:hover {
         background: #9BD9DF;
