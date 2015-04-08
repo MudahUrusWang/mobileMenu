@@ -7,7 +7,7 @@
 }
 .mobile-menu li {
 	display:block;
-        width: 100%;
+        width: 450px;
         float: left;
 }
 .mobile-menu li a {
@@ -20,20 +20,20 @@
 	text-decoration: none;
         border-bottom:1px solid #dedede;
         padding: 10px 10px;
-        width: 58%;
+        width: 60%;
 }
 .mobile-menu li:hover ul a{
 	display:block;
         float: left;
         background: #f3f3f3;
 	color: #717299;
-        width: 55%; 
         text-align: left;
         height: 40px;
         line-height: 40px;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	text-decoration: none;
         border-bottom:1px solid #dedede;
+        width: 56%;
 }
 .mobile-menu li:hover ul a:hover {
         background: #9BD9DF;
@@ -67,7 +67,7 @@
 	text-align: left;
 	padding: 10px 20px;
 	display: block;
-        width: 50%;
+        width: 250px;
 }
 ul {
 	position: static;
@@ -98,6 +98,6 @@ input[type=checkbox]:checked ~ .mobile-menu #mobilemenu {
         text-transform:uppercase;
         padding:5px;
         width: 100%;
-        float: left;	 	 
+        float: left;         	 
 }
 }
