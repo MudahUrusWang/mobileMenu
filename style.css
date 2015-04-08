@@ -90,14 +90,4 @@ input[type=checkbox]{
 input[type=checkbox]:checked ~ .mobile-menu #mobilemenu {
     display: block;
 }
-.mobile-menu-container {
-        display: block;
-        background-color:#fff;
-        clear:both;
-        text-align:center;
-        text-transform:uppercase;
-        padding:5px;
-        width: 100%;
-        float: left;         	 
-}
 }
